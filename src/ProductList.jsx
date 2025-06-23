@@ -2,7 +2,7 @@ import Product from "./product.jsx";
 function ProductList()
 {
     let features = ["fast","durable","fine"];
-    let options = {a:"fast",b:"durable",c:"black"};
+    let options = {a:"fast",b:"durable",c:"black",d:fine};
     return(
         <>
             <Product title="Pen" price={10} features={features} options={options}/>
